@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>User Input Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Particular</legend>
+            <label>Name:</label>
+            <input type="text" />
+            <br />
+            <label>Password:</label>
+            <input type="password" />
+            <br />
+            <label>Gender:</label>
+            <input type="radio" name="sexo" value="male" />
+            <label>Male</label>
+            <input type="radio" name="sexo" value="female" />
+            <label>Female</label>
+            <br />
+            <label>Age:</label>
+            <select name="age">
+                <option value=" < 1 year old"> < 1 year old</option>
+                <option value=" < 2 year old"> < 2 year old</option>
+                <option value=" < 3 year old"> < 3 year old</option>
+                <option value=" < 4 year old"> < 4 year old</option>
+                <option value=" < 5 year old"> < 5 year old</option> 
+                <option value=" < 6 year old"> < 6 year old</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Languages</legend>
+            <input type="checkbox" name="language" value="java"/>
+            <label>Java</label>
+            <input type="checkbox" name="language" value="C/C++"/>
+            <label>C/C++</label>
+            <input type="checkbox" name="language" value="C#"/>
+            <label>C#</label>
+        </fieldset>
+        <fieldset>
+            <legend>Instruction</legend>
+            <textarea name="instruction" id="" cols="30" rows="10" placeholder="Enter your instruction here..."></textarea>
+        </fieldset>
+        <button>SEND</button>
+        <button>CLEAR</button>
+    </form>
+
+</body>
+
+</html>
