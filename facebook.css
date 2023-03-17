@@ -11,6 +11,8 @@ main {
     background-image: url(cover.png);
     background-image: linear-gradient(to bottom, #ffffff, rgba(204, 213, 230, 255));
     width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1.5px;
 }
 
 h1 {
@@ -21,8 +23,6 @@ p {
     font-size: 2vw;
     margin-bottom: 4%;
 }
-
-form {}
 
 label {
     margin-bottom: 2%;
@@ -38,7 +38,7 @@ input {
     padding: 1% 1% 1% 0.5%;
     display: inline-block;
     min-width: 230px;
-    border-color: #d8d1d1;
+    border: solid 2px #c6c5c5;
 }
 
 select {
@@ -46,7 +46,7 @@ select {
     padding-bottom: 1%;
     padding-top: 1%;
     display: inline-block;
-    border-color: #b9b5b5;
+    border: solid 2px #c6c5c5;
 }
 
 button {
